@@ -13,4 +13,13 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="java.time.LocalTime"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
+<fullyQualifiedTypeName name="java.time.Period"/>
+<fullyQualifiedTypeName name="java.time.temporal.TemporalAdjusters"/>
+<fullyQualifiedTypeName name="java.time.DayOfWeek"/>
+<fullyQualifiedTypeName name="java.time.Month"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 </qualifiedTypeNameHistroy>

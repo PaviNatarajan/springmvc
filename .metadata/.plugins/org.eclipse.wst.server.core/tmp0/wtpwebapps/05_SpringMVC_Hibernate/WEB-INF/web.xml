@@ -15,7 +15,7 @@ id="WebApp_ID" version="3.0">
   
   <servlet-mapping> 
   	<servlet-name>springhibernate</servlet-name>
-  	<url-pattern>/</url-pattern>
+  	<url-pattern>*.html</url-pattern>
   </servlet-mapping>
   
 </web-app>
