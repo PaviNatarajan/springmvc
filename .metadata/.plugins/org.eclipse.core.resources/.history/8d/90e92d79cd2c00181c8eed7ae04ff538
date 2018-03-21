@@ -1,0 +1,9 @@
+package java8example;
+
+import java.time.LocalTime;
+
+public class timezone {
+LocalTime today=LocalTime.now();
+//System.out.println("hi"+today.atTime(LocalTime.now()));
+
+}

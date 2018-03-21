@@ -1,0 +1,18 @@
+package java8example;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Period;
+import java.time.temporal.ChronoUnit;
+
+public class timezone {
+	public static void main(String[] args) {
+LocalTime today=LocalTime.now();
+System.out.println("hi"+today);
+LocalDate d1=LocalDate.now();
+System.out.println(d1);
+LocalDate d2=d1.plus(10,ChronoUnit.MONTHS);
+System.out.println(d2);
+Period p;
+}
+}

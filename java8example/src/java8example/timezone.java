@@ -1,0 +1,38 @@
+package java8example;
+
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.Month;
+import java.time.Period;
+import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAdjusters;
+
+public class timezone {
+	public static void main(String[] args) {
+/*LocalTime today=LocalTime.now();
+System.out.println("hi"+""+today);
+LocalDate d1=LocalDate.now();
+System.out.println(d1);
+LocalDate d2=d1.plus(10,ChronoUnit.MONTHS);
+System.out.println(d2);
+Period p=Period.between(d1, d2);
+System.out.println(p);
+LocalDate nextTuesday = d1.with(TemporalAdjusters.next(DayOfWeek.TUESDAY));
+System.out.println("Next Tuesday on : " + nextTuesday);
+*/
+LocalDate sixtyfifth2017 = LocalDate.ofYearDay(2017, 65);
+System.out.println(sixtyfifth2017);
+LocalDate tenthFeb2017 = LocalDate.of(2017, Month.FEBRUARY, 10);
+System.out.println("Specific Date="+tenthFeb2017);
+LocalTime  specificTime = LocalTime.ofSecondOfDay(12345);
+System.out.println(specificTime);
+LocalDateTime specificDate = LocalDateTime.of(2014, Month.FEBRUARY, 20, 12, 0,0);
+System.out.println("Specific Date="+specificDate);
+boolean ld1=LocalDate.of(2017,2 , 5).isBefore(LocalDate.now());
+System.out.println(ld1);
+
+
+	}
+}

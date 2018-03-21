@@ -1,0 +1,10 @@
+package java8example;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class timezone {
+LocalTime today=LocalTime.now();
+System.out.println("hi"+today);
+
+}

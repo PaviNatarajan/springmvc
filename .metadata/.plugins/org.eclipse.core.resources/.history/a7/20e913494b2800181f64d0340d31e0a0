@@ -1,0 +1,10 @@
+package com.springmvc.first.controller;
+
+public class FirstSpringMVC {
+	private String name;
+	private int id;
+	private float salary;
+	private String designation;
+	
+
+}

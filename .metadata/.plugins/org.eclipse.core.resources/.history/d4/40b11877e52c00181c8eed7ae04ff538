@@ -1,0 +1,9 @@
+package com.spring.form.employee.bean;
+
+public class EmployeeBean {
+	private int id;  
+	private String employeeName;  
+	private float employeeSalary;  
+	private String employeeDesignation;
+
+}

@@ -1,0 +1,15 @@
+package java8example;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
+
+public class timezone {
+	public static void main(String[] args) {
+LocalTime today=LocalTime.now();
+System.out.println("hi"+today);
+LocalDate d1=LocalDate.now();
+LocalDate d2=d1.plus(10,ChronoUnit.DAYS);
+System.out.println(d2);
+}
+}
