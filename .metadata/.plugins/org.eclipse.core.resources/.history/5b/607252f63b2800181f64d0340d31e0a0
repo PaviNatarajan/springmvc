@@ -1,7 +1,0 @@
-package com.springmvc.first.controller;
-
-@Controller
-public class FirstSpringMVCController {
-
-	
-}
