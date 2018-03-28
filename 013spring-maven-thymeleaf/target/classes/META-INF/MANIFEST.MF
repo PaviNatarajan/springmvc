@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: 013spring-maven-thymeleaf
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 680942
+Implementation-Vendor-Id: 013spring-maven-thymeleaf
+Build-Jdk: 1.8.0_141
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/013spring-maven-thymeleaf
+Created-By: Maven Integration for Eclipse
+
