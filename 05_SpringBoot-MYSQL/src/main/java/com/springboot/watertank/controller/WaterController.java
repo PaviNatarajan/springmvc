@@ -26,7 +26,7 @@ public class WaterController {
 	
 	@RequestMapping("/free")
 	public String welcomefree() {
-		return "You win 1 ltr of free cocktail!!!";
+		return "You win 1 ltr of free choci!!!";
 	}
 	
 	@RequestMapping(value="/add", method=RequestMethod.POST)
